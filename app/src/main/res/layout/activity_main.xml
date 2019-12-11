@@ -32,4 +32,18 @@
         app:layout_constraintTop_toBottomOf="@+id/spinner"
         android:layout_marginTop="30dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="374dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_view" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

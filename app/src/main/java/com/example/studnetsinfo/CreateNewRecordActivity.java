@@ -17,7 +17,7 @@ public class CreateNewRecordActivity extends AppCompatActivity implements Person
         viewPager = findViewById(R.id.view_pager);
         viewPager.setOffscreenPageLimit(2);
 
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.POSITION_NONE);
         viewPager.setAdapter(viewPagerAdapter);
     }
 

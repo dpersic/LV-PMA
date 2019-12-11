@@ -43,7 +43,7 @@ public class SummaryFragment extends Fragment {
                 MyDataStorage myDataStorage = MyDataStorage.getInstance();
                 Student student = new Student(mIme, mPrezime, mPredmet);
                 myDataStorage.setStudents(student);
-                Intent intent = new Intent(getActivity(), PocetniActivity.class);
+                Intent intent = new Intent(getActivity(), MainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
             }

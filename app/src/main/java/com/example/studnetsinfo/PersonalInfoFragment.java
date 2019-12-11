@@ -18,6 +18,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.textfield.TextInputEditText;
+
+import static android.app.Activity.RESULT_OK;
+
 public class PersonalInfoFragment extends Fragment {
 
     private static final int REQUEST_IMAGE_CAPTURE = 1;
